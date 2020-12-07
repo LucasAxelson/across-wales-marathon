@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -27,50 +30,79 @@ header .top-bar {
 header .top-bar .logo img {
     height: 75px;
     width: auto;
-    margin-left: 1em;
+
+    margin-left: 70%;
     margin-top: .8em;
 }
 
 header .top-bar nav a {
-    text-decoration: none;
     cursor: pointer;
 
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     
     margin-right: 5em;
 }
 
 /* Front Page */
 
-body .welcome {
+.front-page .welcome {
     display: flex;
     flex-direction: column;
     text-align: start;
     
     padding: 4em;
+    float: left;
+    width: 55%;
+
 
     color: white;
 }
 
-body .welcome h2 {
+.front-page .welcome h2 {
     font-size: 30px;
-    width: 55%;
+    width: 100%;
     margin-bottom: 20px;
 }
 
-body .welcome p {
+.front-page .welcome p {
     font-size: 24px;
-    width: 50%;
+    width: 90%;
     line-height: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
-body .welcome .button {
-    font-size: 18px;
+.front-page .welcome .button a {
+    color: black;
+}
 
-    width: 40%;
+.front-page .welcome .button {
+    font-size: 18px;;
+
+    cursor: pointer;
+
+    width: 30%;
     padding: 1em 1em;
     border-radius: 10px;
+}
 
+.front-page .welcome .button:hover {
+    background-color: rgba(234, 234, 234, 0.646);
+    transition: 0.3s ease-in;
+}
+
+.front-page aside .side {
+    float: right;
+    width: 45%;
+}
+
+.front-page aside .side img {
+    height: 20em;
+    width: auto;
+
+    padding: 2em 2em; 
+    margin-top: 18%;
+
+    text-align: center;
+    display: block;
 }
