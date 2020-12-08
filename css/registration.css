@@ -61,27 +61,57 @@ header .top-bar nav a {
 }
 
 .member .sign-in {
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    font-size: 18px;
     border: 1px solid black;
     border-radius: 20px;
     background-color: #d3d7de;
 
     padding: 2rem;
-    height: 15rem;
-    width: 30%;
+    height: 21rem;
+    width: 40%;
 }
 
 .member .sign-in h2 {
-    font-size: 24px;
+    font-size: 2em;
     margin-bottom: 1.5rem;
 }
 
+.member .sign-in hr {
+    display: block;
+    overflow: hidden; 
+    
+    border-width: 1px;
+    border-color: rgba(111, 110, 110, 0.75);
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
 .member .sign-in .input-sign {
-        margin: 1em 1em;
+    padding: .4em;
+    margin: 1em 2rem;
+    font-size: 0.75em;
+}
+
+.member .sign-in button {
+    padding: 0.3em;
+    margin-top: 0.75rem;
+
+    width: 12em;
+    height: 3em;
+
+    font-size: 0.75em;
+    font-weight: 700;
+    outline: none;
+
+    border-radius: 10px;
 }
