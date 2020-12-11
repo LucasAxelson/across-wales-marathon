@@ -44,7 +44,7 @@ header .top-bar nav a {
     margin-right: 5em;
 }
 
-/* Main Page */
+/* Main Page - Sign-in */
 
 #welcome h1 {
     color: white;
@@ -74,13 +74,21 @@ header .top-bar nav a {
     background-color: #d3d7de;
 
     padding: 2rem;
-    height: 21rem;
+    height: 25rem;
     width: 40%;
 }
 
 .member .sign-in h2 {
     font-size: 2em;
     margin-bottom: 1.5rem;
+}
+
+.member .sign-in h3 {
+    margin-top: 1em;
+}
+
+.member .sign-in h3 a:active {
+    color: rgb(39, 107, 129);
 }
 
 .member .sign-in hr {
@@ -103,7 +111,7 @@ header .top-bar nav a {
 }
 
 .member .sign-in button {
-    padding: 0.3em;
+    padding: 0.4em;
     margin-top: 0.75rem;
 
     width: 12em;
@@ -114,4 +122,22 @@ header .top-bar nav a {
     outline: none;
 
     border-radius: 10px;
+}
+
+/* Section - Sign-Up */
+
+.non-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    height: 35rem;   
+
+    background-color: #d3d7de;
+}
+
+.non-member .sign-up h2 {
+        
 }

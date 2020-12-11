@@ -33,7 +33,7 @@
         </div>
     </header>
     <!-- End of Navigation Bar -->
-    <!-- Start of Registration -->
+    <!-- Start of Member Sign-In -->
     <main>
         <div id="welcome">
             <h1>
@@ -55,11 +55,44 @@
                     <button>
                         Log In
                     </button>
+
+                    <h3>
+                        If not, <a href="#sign-up">sign up!</a>
+                    </h3>
                 </div>
             </form>
         </div>
     </main>
-    <!-- Emd of Registration -->
+    <!-- Emd of Member Sign-In -->
+    <!-- Start of Non-Member Register -->
+    <article>
+        <div class="non-member">
+            <form action="/sign-up">
+                <div class="sign-up">
+                    <h2>Create your Account</h2>
+
+                    <div class="name">
+                        <label for="first">First Name</label>
+                        <input type="text" id="first" class="input-register" maxlength="100">
+                        <label for="last">Surname</label>
+                        <input type="text" id="last" class="input-register" maxlength="150">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="input-register" maxlength="100">
+                    </div>
+                    <div class="password">
+                        <label for="pass">Password</label>
+                        <input type="password" id="password" class="input-password" minlength="8" maxlength="50"
+                            required>
+
+                        <p>Use 8 or more characters with a mix of letters, numbers &amp; symbols</p>
+                    </div>
+
+
+                </div>
+            </form>
+        </div>
+    </article>
+    <!-- End of Non-Member Register -->
 </body>
 
 </html>
