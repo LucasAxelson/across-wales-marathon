@@ -66,28 +66,35 @@
     <!-- Emd of Member Sign-In -->
     <!-- Start of Non-Member Register -->
     <article>
-        <div class="non-member">
+        <div class="non-member" id="sign-up">
             <form action="/sign-up">
-                <div class="sign-up">
-                    <h2>Create your Account</h2>
-
-                    <div class="name">
-                        <label for="first">First Name</label>
-                        <input type="text" id="first" class="input-register" maxlength="100">
-                        <label for="last">Surname</label>
-                        <input type="text" id="last" class="input-register" maxlength="150">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" class="input-register" maxlength="100">
+                <div class="container">
+                    <div class="logo">
+                        <img src="/img/logo1.png" alt="Logo - Man running past the finish line.">
                     </div>
-                    <div class="password">
-                        <label for="pass">Password</label>
-                        <input type="password" id="password" class="input-password" minlength="8" maxlength="50"
-                            required>
+                    <div class="register-form">
+                        <h2>Create your Account</h2>
 
-                        <p>Use 8 or more characters with a mix of letters, numbers &amp; symbols</p>
+                        <div class="info">
+                            <div class="name">
+                                <label for="first">First Name</label>
+                                <input type="text" id="first" class="input-register" maxlength="100" value="First Name">
+                                <label for="last">Surname</label>
+                                <input type="text" id="last" class="input-register" maxlength="150" value="Surname">
+                            </div>
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="input-register" maxlength="100" value="Email">
+                            </div>
+                        </div>
+                        <div class="password">
+                            <label for="pass">Password</label>
+                            <input type="password" id="password" class="input-password" placeholder="   Password"
+                                minlength="8" maxlength="50" required>
+
+                            <p>Use 8 or more characters with a mix of letters, numbers &amp; symbols</p>
+                        </div>
                     </div>
-
-
                 </div>
             </form>
         </div>
