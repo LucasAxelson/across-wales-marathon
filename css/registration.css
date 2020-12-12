@@ -17,11 +17,6 @@ body {
     background-color: rgb(240, 180, 67);
     
     font-size: 1.5rem;
-
-}
-
-.navbar-nav li a {
-    color: white;
 }
 
 nav .navbar-brand img {
@@ -57,15 +52,13 @@ nav .navbar-brand img {
     flex-direction: column;
     align-items: center;
 
-
     font-size: 18px;
     border: 1px solid black;
     border-radius: 20px;
-    background-color: #d3d7de;
+    background-color: #f0f1f4;
 
     padding: 2rem;
-    height: 25rem;
-    width: 40%;
+    height: 27rem;
 }
 
 .member .sign-in label {
@@ -76,7 +69,6 @@ nav .navbar-brand img {
     font-size: 2em;
 
     border-bottom: 1px solid black;    
-
     margin-bottom: 1rem;
 }
 
@@ -88,7 +80,7 @@ nav .navbar-brand img {
 }
 
 .member .sign-in h3 {
-margin-top: 1em;
+    margin-top: 1em;
 }
 
 .member .sign-in h3 a {
@@ -100,21 +92,21 @@ margin-top: 1em;
 }
 
 .member .sign-in button {
-    padding: 0.4em;
-    width: 10em;
-    height: 2.25em;
-
     font-size: 1em;
-    font-weight: 700;
-    outline: none;
+    color: black;
 
+    cursor: pointer;
+    
+    margin: 0.5em 1em;
+    padding: 0.35em 3.5rem;
+
+    outline: none;
+    border-radius: 20px;
     border-width: 2px;
-    border-radius: 10px;
-    margin-top: 0.75rem;
 }
 
 .member .sign-in button:active {
-    background-color: rgb(32, 73, 111);
+    background-color: rgb(223, 167, 64);
 }
 
 /* Section - Sign-Up */
@@ -128,41 +120,67 @@ margin-top: 1em;
     flex-direction: row;
     justify-content: center;
 
-    background-color: #d3d7de;
+    background-color: #f0f1f4;
 }
 
 .non-member .container img {
-    height: 5rem;
-    margin: 2em;
+    height: 8rem;
+    width: auto;
 
+    margin: 4em 4em;
+
+    z-index: 1;
     position: absolute;
 }
 
-.non-member .container .register-form {
-    justify-content: space-evenly;
-
-    margin-left: 12em; 
-    width: 80%;  
+.non-member .container .top {
+    margin-bottom: 2em;
 }
 
-.non-member .container .register-form h2 {
+.non-member .container .top h2 {
     padding: 3em;
+    margin-left: 2em;
+
+    border-bottom: 1px solid black;    
+    margin-bottom: 1rem;
 
     text-align: center;
 }
 
-.non-member .container .register-form .info {
-    margin-bottom: 3em;
+.container .register-form label {
+    visibility: hidden
 }
 
-.non-member .container .register-form label {
-    visibility: hidden;
+.register-form .info input {
+    padding: 0.5em .75em;
 }
 
-.non-member .register-form .name input {
-    padding: 10px 15px;
+.register-form .info .name,.details {
+    margin-bottom: 2em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.non-member .register-form .name .input-register {
-    margin: 30px;
+.register-form .info .password,.register,p {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 0.75em;
+}
+
+.register-form .info button {
+    width: 20em;
+
+    font-weight: 700;
+    color: black;
+
+    border-radius: 10px;
+    border-width: 2px;
+    transition: background-color .3s ease-in;
+}    
+
+.register-form .info button:active {
+    background-color: rgb(237, 190, 60);
 }

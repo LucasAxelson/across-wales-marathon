@@ -20,10 +20,6 @@ body {
 
 }
 
-.navbar-nav li a {
-    color: white;
-}
-
 nav .navbar-brand img {
     height: 4em;
     width: auto;
@@ -68,11 +64,13 @@ nav .navbar-brand img {
 }
 
 .front-page .welcome .buttons button a {
-    color: black;
+    color: white;
+
+    text-decoration: none;
 }
 
 .front-page .welcome .buttons button {
-    font-size: 18px;;
+    font-size: 18px;
 
     cursor: pointer;
     
@@ -82,11 +80,12 @@ nav .navbar-brand img {
 
     outline: none;
     border-radius: 20px;
+    border-width: 2px;
 }
 
 .front-page .welcome button:hover {
-    background-color: rgba(234, 234, 234, 0.646);
-    transition: 0.3s ease-in;
+    background-color: rgb(240, 180, 67);
+    transition: 0.4s ease-in;
 }
 
 .front-page aside .side {
