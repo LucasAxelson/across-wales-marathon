@@ -54,21 +54,35 @@
                 Welcome to the All-Ages Across Wales Registration Page!
             </h1>
         </div>
-        <div class="member">
+        <div class="container" id="member">
             <form action="/register">
                 <div class="sign-in">
-                    <h2>Log in</h2>
+                    <h2 class="text-center">Log in</h2>
 
-                    <label for="username"> Name or Email </label>
-                    <input type="text" id="username" class="input-sign" maxlength="20">
-                    <label for="password"> Password </label>
-                    <input type="text" id="password" class="input-sign" minlength="8" maxlength="15" required>
+                    <hr>
 
-                    <button type="button" class="btn btn-outline-warning">Sign In</button>
+                    <div class="d-flex flex-column justify-content-center text-center">
 
-                    <h3>
+                        <label for="username"> Name or Email </label>
+                        <input type="text" id="username" maxlength="20">
+
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center text-center">
+
+                        <label for="password"> Password </label>
+                        <input type="text" id="password" minlength="8" maxlength="15" required>
+
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-outline-warning">Sign In</button>
+                    </div>
+
+                    <h3 class="text-center">
                         If not, <a href="#sign-up">sign up!</a>
                     </h3>
+
                 </div>
             </form>
         </div>
@@ -76,63 +90,107 @@
     <!-- End of Member Sign-In -->
     <!-- Start of Non-Member Registration Form -->
     <article>
-        <div class="non-member" id="sign-up">
-            <form action="/sign-up">
-                <div class="container">
-                    <div class="top">
-                        <img src="/img/logo1.png" alt="Logo - Man running past the finish line.">
+
+        <form action="/">
+            <div class="container" id="sign-up">
+
+                <div class="container" id="top-register">
+                    <div class="d-flex flew-row justify-content-center">
+                        <img src="/img/logo1.png" alt="Logo - Man running past the finish line." class="img-fluid">
+
                         <h2>Create your Account</h2>
                     </div>
-                    <div class="register-form">
-                        <!-- Start of Registration Form Inputs -->
-                        <div class="info">
-                            <div class="name">
-                                <label for="first">First Name</label>
-                                <input type="text" id="first" class="input-name" maxlength="100"
-                                    placeholder="First Name" required>
+                </div>
 
-                                <label for="first">Middle Name</label>
-                                <input type="text" id="middle" class="input-name" maxlength="100"
-                                    placeholder="Middle Name (Optional)">
+                <div class="row" id="name-inputs">
 
-                                <label for="last">Surname</label>
-                                <input type="text" id="last" class="input-name" maxlength="150" placeholder="Surname"
-                                    required>
-                            </div>
-                            <div class="details">
-                                <label for="team">Team</label>
-                                <input type="text" id="team" class="input-details" maxlength="100"
-                                    placeholder="Team (Optional)">
+                    <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
 
-                                <label for="age">Age</label>
-                                <input type="text" id="age" class="input-details" minlength="1" maxlength="3"
-                                    placeholder="Your Age" required>
-
-                                <label for="email">Email</label>
-                                <input type="email" id="email" class="input-details" minlength="10" maxlength="100"
-                                    placeholder="Email" required>
-                            </div>
-
-                            <div class="password">
-                                <label for="pass">Password</label>
-                                <input type="password" id="password" class="input-password" placeholder="Password"
-                                    minlength="8" maxlength="50" required>
-                            </div>
-                            <!-- End of Registration Form Inputs -->
-
-                            <p>Use 8 or more characters with a mix of letters, numbers &amp; symbols</p>
-
-                            <div class="register">
-                                <button type="button" id="register-button" class="btn btn-outline-warning">
-                                    Register!
-                                </button>
-                            </div>
+                        <div class="d-flex justify-content-center">
+                            <label for="first" class="visually-hidden">First Name</label>
+                            <input type="text" id="first" placeholder="First Name" maxlength="100" required>
                         </div>
+
+                    </div>
+                    <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
+
+                        <div class="d-flex justify-content-center">
+                            <label for="middle" class="visually-hidden">Middle Name</label>
+                            <input type="text" id="middle" placeholder="Middle Name" maxlength="100">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
+
+                        <div class="d-flex justify-content-center">
+                            <label for="last" class="visually-hidden">Last Name</label>
+                            <input type="text" id="last" placeholder="Last Name" maxlength="100" required>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row" id="detail-inputs">
+
+                    <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
+
+                        <div class="d-flex justify-content-center">
+                            <label for="team" class="visually-hidden">Team</label>
+                            <input type="text" id="team" placeholder="Team" maxlength="100" required>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
+
+                        <div class="d-flex justify-content-center">
+                            <label for="email" class="visually-hidden">Email</label>
+                            <input type="text" id="email" placeholder="Email" maxlength="100" required>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
+
+                        <div class="d-flex justify-content-center">
+                            <label for="age" class="visually-hidden">Age</label>
+                            <select name="age" id="age">
+                                <option value="age">Below 18</option>
+                                <option value="age">19 to 30</option>
+                                <option value="age">31 to 60</option>
+                                <option value="age">Over 60</option>
+                            </select>
+                        </div>
+
                     </div>
                 </div>
-            </form>
-        </div>
+
+                <div class="row" id="password-input">
+
+                    <div class="col-md-offset-12 col-md-12">
+
+                        <div class="d-flex justify-content-center">
+                            <label for="password" class="visually-hidden">Password</label>
+                            <input type="password" id="password" class="input-password" placeholder="Password"
+                                minlength="8" maxlength="50" required>
+                        </div>
+
+                    </div>
+
+                    <p>Use 8 or more characters with a mix of letters, numbers &amp; symbols</p>
+
+                    <div class="d-flex justify-content-center">
+                        <button type="button" id="register-button" class="btn btn-outline-warning">
+                            Register!
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </form>
+
     </article>
+
     <!-- End of Non-Member Registration Form -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

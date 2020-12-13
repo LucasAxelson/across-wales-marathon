@@ -28,6 +28,7 @@ nav .navbar-brand img {
     margin-top: .1em;
 }
 
+/* End of Navigation bar */
 /* Main Page - Sign-in */
 
 #welcome h1 {
@@ -40,17 +41,13 @@ nav .navbar-brand img {
     padding: 2rem;
 }
 
-.member {
+#member {
     width: 100%;
 }
 
-.member .sign-in {
-    margin-left: 30%;
-    margin-right: 30%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#member .sign-in {
+    margin: 1em auto 2em;
+    width: 50%;
 
     font-size: 18px;
     border: 1px solid black;
@@ -60,44 +57,47 @@ nav .navbar-brand img {
     padding: 2rem;
     height: 27rem;
 }
-
-.member .sign-in label {
+#member .sign-in label {
     margin-top: 1em;
 }
 
-.member .sign-in h2 {
+#member .sign-in h2 {
     font-size: 2em;
-
-    border-bottom: 1px solid black;    
-    margin-bottom: 1rem;
+    text-align: center;
 }
 
-.member .sign-in .input-sign {
-    padding: .4em;
-    margin: 0.1em 2rem;
+#member .sign-in hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+#member .sign-in input {
+    padding: 0.4em;
+    margin: 0.5em 2rem;
 
     font-size: 0.75em;
 }
 
-.member .sign-in h3 {
-    margin-top: 1em;
+#member .sign-in h3 {
+    margin: 0.85em;
 }
 
-.member .sign-in h3 a {
+#member .sign-in h3 a {
     text-decoration: none;
 }
 
-.member .sign-in h3 a:active {
+#member .sign-in h3 a:active {
     color: rgb(39, 107, 129);
 }
 
-.member .sign-in button {
-    font-size: 1em;
+#member .sign-in button {
+    font-size: .9em;
     color: black;
 
     cursor: pointer;
     
-    margin: 0.5em 1em;
+    margin-top: 0.5em;
     padding: 0.35em 3.5rem;
 
     outline: none;
@@ -105,73 +105,88 @@ nav .navbar-brand img {
     border-width: 2px;
 }
 
-.member .sign-in button:active {
+#member .sign-in button:active {
     background-color: rgb(223, 167, 64);
 }
 
-/* Section - Sign-Up */
+/* End of Main Page - Sign in */
+/* Article - Sign-Up */
 
-.non-member {
-    width: 80%;
-    height: 38em;
-    margin: 5em auto;   
+    /* Top bar */
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#sign-up {
+    margin: 2em auto 2em;
+    width: 70%;
 
     background-color: #f0f1f4;
 }
 
-.non-member .container img {
-    height: 8rem;
-    width: auto;
+#sign-up #top-register {
+    width: 100%;
+    height: 7rem;
 
-    margin: 4em 4em;
+    padding: 1rem 1rem;
+    margin-bottom: 3rem;
+
+    border-bottom: 1px solid black;
+}
+
+#sign-up #top-register img {
+    height: 5rem;
 
     z-index: 1;
-    position: absolute;
 }
 
-.non-member .container .top {
-    margin-bottom: 2em;
+#sign-up #top-register h2 {
+    font-size: 2.25rem;
+
+    margin: 1rem 0 1rem 0;
+    padding: 0 1em;
 }
 
-.non-member .container .top h2 {
-    padding: 3em;
-    margin-left: 2em;
+@media (max-width: 720px) {
+    #sign-up #top-register {
+        margin-bottom: 5rem;
+    }
 
-    border-bottom: 1px solid black;    
+    #sign-up #top-register img {
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    #sign-up #top-register img, h2 {
+        width: auto;
+    }
+
+}
+
+    /* End of Top bar */
+    /* Sign-up form */
+
+
+#sign-up #detail-inputs input, select, #name-inputs input {
+    width: 80%;
+
+    margin-bottom: 3rem;
+
+    text-align: center;
+}
+
+#sign-up #password-input input {
+    width: 34%;
+
     margin-bottom: 1rem;
 
     text-align: center;
 }
 
-.container .register-form label {
-    visibility: hidden
+#sign-up #password-input p {
+    text-align: center;
 }
 
-.register-form .info input {
-    padding: 0.5em .75em;
-}
-
-.register-form .info .name,.details {
-    margin-bottom: 2em;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.register-form .info .password,.register,p {
-    display: flex;
-    justify-content: center;
-
-    margin-bottom: 0.75em;
-}
-
-.register-form .info button {
+#sign-up #password-input button {
     width: 20em;
+    margin: 1em auto 2em;
 
     font-weight: 700;
     color: black;
@@ -181,6 +196,12 @@ nav .navbar-brand img {
     transition: background-color .3s ease-in;
 }    
 
-.register-form .info button:active {
-    background-color: rgb(237, 190, 60);
+#sign-up #password-input button:active {
+    background-color: rgba(237, 190, 60, 0.393);
+   
+    transition: .5s ease;
 }
+
+    /* End of Sign-up form */
+
+/* End of Article - Sign-up */
