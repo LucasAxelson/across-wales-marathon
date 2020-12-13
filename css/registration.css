@@ -50,13 +50,13 @@ nav .navbar-brand img {
     width: 50%;
 
     font-size: 18px;
-    border: 1px solid black;
     border-radius: 20px;
     background-color: #f0f1f4;
 
     padding: 2rem;
     height: 27rem;
 }
+
 #member .sign-in label {
     margin-top: 1em;
 }
@@ -66,16 +66,12 @@ nav .navbar-brand img {
     text-align: center;
 }
 
-#member .sign-in hr {
-    height: 2px;
-    background-color: black;
-    border: none;
-}
-
 #member .sign-in input {
     padding: 0.4em;
     margin: 0.5em 2rem;
 
+    border: 1px solid black;
+    
     font-size: 0.75em;
 }
 
@@ -110,6 +106,7 @@ nav .navbar-brand img {
 }
 
 /* End of Main Page - Sign in */
+
 /* Article - Sign-Up */
 
     /* Top bar */
@@ -127,8 +124,6 @@ nav .navbar-brand img {
 
     padding: 1rem 1rem;
     margin-bottom: 3rem;
-
-    border-bottom: 1px solid black;
 }
 
 #sign-up #top-register img {
@@ -144,21 +139,6 @@ nav .navbar-brand img {
     padding: 0 1em;
 }
 
-@media (max-width: 720px) {
-    #sign-up #top-register {
-        margin-bottom: 5rem;
-    }
-
-    #sign-up #top-register img {
-        margin-top: 2rem;
-        margin-left: 1.5rem;
-    }
-
-    #sign-up #top-register img, h2 {
-        width: auto;
-    }
-
-}
 
     /* End of Top bar */
     /* Sign-up form */
@@ -167,6 +147,7 @@ nav .navbar-brand img {
 #sign-up #detail-inputs input, select, #name-inputs input {
     width: 80%;
 
+    border: 1px solid black;
     margin-bottom: 3rem;
 
     text-align: center;
@@ -175,6 +156,7 @@ nav .navbar-brand img {
 #sign-up #password-input input {
     width: 34%;
 
+    border: 1px solid black;
     margin-bottom: 1rem;
 
     text-align: center;
