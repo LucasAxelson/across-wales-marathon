@@ -8,6 +8,7 @@
 }
 
 body {
+    color: white;
     background-color: #060607c9;
 }
 
@@ -16,8 +17,9 @@ body {
 #nav-bar-marathon {
     background-color: rgb(240, 180, 67);
     
-    font-size: 1.5rem;
+    width: 100%;
 
+    font-size: 1.5rem;
 }
 
 nav .navbar-brand img {
@@ -29,53 +31,58 @@ nav .navbar-brand img {
     margin-top: .1em;
 }
 
+/* Main Page */
+
+#main-page {
+    width: 100%;
+
+    margin: 2rem .25rem;
+}
+
+#main-page #marathon-logo {
+    width: 100%;
+}
+
+#main-page #front-page {
+    width: 100%;
+}
+
+/* Aside Section */
+
+#main-page #marathon-logo img {    
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
 /* Front Page */
 
-.front-page {
-    width: 100%;
-    height: 28em;
+#front-page h1 {
+    font-size: 2.15rem;
+
+    margin-bottom: 1.25rem;
 }
 
-.front-page .welcome {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    
-    padding: 4em;
-    float: left;
-    width: 55%;
-
-
-    color: white;
-}
-
-.front-page .welcome h2 {
-    font-size: 30px;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.front-page .welcome p {
-    font-size: 24px;
+#front-page .marathon-text {
+    font-size: 1.5rem;
  
     width: 100%;
     line-height: 1.5em;
     margin-bottom: 1em;
 }
 
-.front-page .welcome .buttons button a {
+#front-page #buttons-front button a {
     color: white;
 
     text-decoration: none;
 }
 
-.front-page .welcome .buttons button {
-    font-size: 18px;
+#front-page #buttons-front button {
+    font-size: 1.15rem;
 
     cursor: pointer;
     
-    margin: 0.5em 1em;
-    width: 30%;
+    margin: 0.5em 0.2em;
+    width: 40%;
     padding: 1em 1em;
 
     outline: none;
@@ -83,23 +90,7 @@ nav .navbar-brand img {
     border-width: 2px;
 }
 
-.front-page .welcome button:hover {
+#front-page #buttons-front button:hover {
     background-color: rgb(240, 180, 67);
     transition: 0.4s ease-in;
-}
-
-.front-page aside .side {
-    float: right;
-    width: 45%;
-}
-
-.front-page aside .side img {
-    height: 22em;
-    width: auto;
-
-    padding: 3em 1em; 
-    margin-top: 14%;
-
-    text-align: center;
-    display: block;
 }

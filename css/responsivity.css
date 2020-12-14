@@ -1,6 +1,30 @@
+/* Main Page */
+
+@media (min-width: 992px) {
+    #index-sheet #main-page .col-lg-6:nth-child(1) {
+        order: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    #index-sheet #main-page .col-lg-6:nth-child(2) {
+        order: 1;
+    }
+}
 
 @media (max-width: 500px) {
-    nav .navbar-brand img {
+    #index-sheet nav .navbar-brand img {
+        height: 3rem;
+
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Registration Page */
+
+@media (max-width: 500px) {
+    #registration-sheet nav .navbar-brand img {
         height: 3rem;
 
         margin-left: 0;
@@ -10,24 +34,24 @@
 
 @media (max-width: 768px) {
     
-    #member .sign-in {
+    #registration-sheet #member .sign-in {
         width: 90%;
     }
     
-    #sign-up {
+    #registration-sheet #sign-up {
         width: auto;
     }
 
-    #sign-up #top-register {
+    #registration-sheet #sign-up #top-register {
         margin-bottom: 5rem;
     }
 
-    #sign-up #top-register img {
+    #registration-sheet #sign-up #top-register img {
         margin-top: 2rem;
         margin-left: 1.5rem;
     }
 
-    #sign-up #top-register img, h2 {
+    #registration-sheet #sign-up #top-register img, h2 {
         width: auto;
     }
 
