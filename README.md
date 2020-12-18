@@ -13,9 +13,8 @@ Reduction of CSS code, due to new reliance on Bootstrap. <br>
 * <i> Creation of ID tags for essential divs. Clarifying the connected style sheets code and facilitating third-party analysis. </i> <br> 
 <br>
 
-![1 - Navbar responsivity within three-hundred and sixty pixels width](https://user-images.githubusercontent.com/73433189/102028656-30a4c380-3da3-11eb-87e0-e4762faf4424.PNG)
-![2 - Portrait IPhone Four sign in form](https://user-images.githubusercontent.com/73433189/102028660-34384a80-3da3-11eb-8a77-aa9c923918f2.PNG)
-![3 - Portrait IPhone Four register form](https://user-images.githubusercontent.com/73433189/102028674-3ac6c200-3da3-11eb-9cbb-c2cadf0b2f65.PNG)
+![1 - Navbar and sign-in form responsivity within three-hundred and sixty pixels width](https://user-images.githubusercontent.com/73433189/102028656-30a4c380-3da3-11eb-87e0-e4762faf4424.PNG)
+![2 - Register form responsivity within three-hundred and sixty pixels width](https://user-images.githubusercontent.com/73433189/102028674-3ac6c200-3da3-11eb-9cbb-c2cadf0b2f65.PNG)
 
 12/12/2020 <br> 
 <br> 
