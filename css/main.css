@@ -34,9 +34,7 @@ nav .navbar-brand img {
 /* Main Page */
 
 #main-page {
-    width: 100%;
-
-    margin: 2rem .25rem;
+    padding: 2rem;
 }
 
 #main-page #marathon-logo {
@@ -93,4 +91,29 @@ nav .navbar-brand img {
 #front-page #buttons-front button:hover {
     background-color: rgb(240, 180, 67);
     transition: 0.4s ease-in;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 2rem;
+
+    border-top: 1px solid black;
+}
+
+footer .logo {
+    background-color: rgb(240, 180, 67);
+}
+
+footer .f-logo img {
+    height: 4rem;
+
+    margin: 1rem;
+}
+
+footer .rights h5 {
+    margin: 1rem;
+
+    font-size: 16px;
+    color: white;
 }

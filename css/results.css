@@ -31,15 +31,61 @@ nav .navbar-brand img {
     margin-top: .1em;
 }
 
-/* First section */
+/* First section - Thanks */
 
-#success img {
-    margin-top: 3rem;
+#thanks {
+    margin: 4.75rem 0;
 }
 
-#success .blurb {
+#thanks .block {
+    padding: 0 3rem;
+}
+
+#thanks img {
+    border: 2px solid white;
+}
+
+#thanks .blurb {
     font-size: 1.25rem;
 
+    width: 40%;
     text-align: justify;
-    padding-left: 3rem;
+}
+
+/* Second Section - Results */
+
+#results {
+    padding: 2rem;
+}
+
+#results h2 {
+    color: black;
+
+    padding: 2.5rem;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 3rem;
+
+    border-top: 1px solid black;
+}
+
+footer .logo {
+    background-color: rgb(240, 180, 67);
+}
+
+footer .f-logo img {
+    height: 4rem;
+
+    margin: 1rem;
+}
+
+footer .rights h5 {
+    margin: 1rem;
+
+    font-size: 16px;
+    color: white;
 }

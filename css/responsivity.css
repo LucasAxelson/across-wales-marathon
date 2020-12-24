@@ -1,23 +1,48 @@
 /* Main Page */
 
 @media (min-width: 992px) {
+
     #index-sheet #main-page .col-lg-6:nth-child(1) {
         order: 1;
     }
 }
 
 @media (max-width: 992px) {
+
     #index-sheet #main-page .col-lg-6:nth-child(2) {
         order: 1;
     }
 }
 
 @media (max-width: 500px) {
+
     #index-sheet nav .navbar-brand img {
         height: 3rem;
 
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #front-page #buttons-front button {
+        font-size: 1.15rem;
+
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+
+        width: 40%;
+
+        height: 3rem;
+        padding: 3rem 1rem;
+
+        cursor: pointer;
+        outline: none;
+        
+        border-radius: 20px;
+        border-width: 2px;
     }
 }
 
@@ -33,7 +58,7 @@
 }
 
 @media (max-width: 768px) {
-    
+
     #registration-sheet #member .sign-in {
         width: 90%;
     }
@@ -54,5 +79,24 @@
     #registration-sheet #sign-up #top-register img, h2 {
         width: auto;
     }
+
+}
+
+/* Results Page */
+
+@media (max-width: 992px) {
+
+    #results-sheet #success img {
+        border: 2px solid white;
+        margin: 0 0;
+}     
+
+    #results-sheet #thanks .blurb {
+        font-size: 1.25rem;
+        text-align: justify;
+
+        width: 100%;
+        margin-top: 5rem;
+}
 
 }

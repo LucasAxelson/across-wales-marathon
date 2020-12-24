@@ -138,10 +138,8 @@ nav .navbar-brand img {
     padding: 0 1em;
 }
 
-
     /* End of Top bar */
     /* Sign-up form */
-
 
 #sign-up #detail-inputs input, select, #name-inputs input {
     width: 80%;
@@ -186,3 +184,28 @@ nav .navbar-brand img {
     /* End of Sign-up form */
 
 /* End of Article - Sign-up */
+
+/* Footer */
+
+footer {
+    margin-top: 2rem;
+
+    border-top: 1px solid black;
+}
+
+footer .logo {
+    background-color: rgb(240, 180, 67);
+}
+
+footer .f-logo img {
+    height: 4rem;
+
+    margin: 1rem;
+}
+
+footer .rights h5 {
+    margin: 1rem;
+
+    font-size: 16px;
+    color: white;
+}
