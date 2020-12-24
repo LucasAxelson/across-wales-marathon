@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    background-color: #060607c9;
+}
+
+/* Navigation bar */
+
+#nav-bar-marathon {
+    background-color: rgb(240, 180, 67);
+    
+    width: 100%;
+
+    font-size: 1.5rem;
+}
+
+nav .navbar-brand img {
+    height: 4em;
+    width: auto;
+
+    margin-left: 1em;
+    margin-right: 4em;
+    margin-top: .1em;
+}
+
+/* First section */
+
+#success img {
+    margin-top: 3rem;
+}
+
+#success .blurb {
+    font-size: 1.25rem;
+
+    text-align: justify;
+    padding-left: 3rem;
+}

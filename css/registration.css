@@ -48,13 +48,12 @@ nav .navbar-brand img {
 #member .sign-in {
     margin: 1em auto 2em;
     width: 50%;
+    padding: 2rem;
+    height: 27rem;
 
     font-size: 18px;
     border-radius: 20px;
     background-color: #f0f1f4;
-
-    padding: 2rem;
-    height: 27rem;
 }
 
 #member .sign-in label {
