@@ -1,6 +1,21 @@
 # marathon
 3-page marathon site. Test of HTML and CSS skills
 
+24/12/2020 <br>
+<br>
+Creation of Results page with absolute responsivity as per the last post's standards. <br>
+ * <i> Utilization of Bootstrap and it's grid & table system. </i> <br>
+ * <i> Creation of Thanks section and Results table. </i> <br>
+<br>
+Creation of Footer. <br>
+Correction of button bug on Main Page, About section. (Disproportionate button sizes on 368px screens) <br>
+<br>
+
+![1 - Front](https://user-images.githubusercontent.com/73433189/103104521-b1738300-461f-11eb-8ce0-fee81705e5ed.PNG)
+![2 - Results and New Footer](https://user-images.githubusercontent.com/73433189/103104525-b3d5dd00-461f-11eb-8151-6ad42e8766ce.PNG)
+![3 - Front Responsivity](https://user-images.githubusercontent.com/73433189/103104526-b3d5dd00-461f-11eb-8226-75237ffe466b.PNG)
+![4 - Results Responsivity](https://user-images.githubusercontent.com/73433189/103104527-b46e7380-461f-11eb-90a8-7e3719ef6fd6.PNG)
+
 13/12/2020 <br> 
 <br>
 Recreation of Registration Page for absolute responsivity. Functional with all modern screen sizes above 350px width. <br>
