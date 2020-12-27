@@ -16,16 +16,6 @@
 
 @media (max-width: 500px) {
 
-    #index-sheet nav .navbar-brand img {
-        height: 3rem;
-
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 500px) {
-
     #front-page #buttons-front button {
         font-size: 1.15rem;
 
@@ -44,6 +34,34 @@
         border-radius: 20px;
         border-width: 2px;
     }
+
+    #index-sheet nav .navbar-brand img {
+        height: 3rem;
+
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Donate to Us */
+
+@media (max-width: 992px) {
+    #donate {
+        color: white;   
+        font-weight: 100;
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+        text-align: center;
+        padding: 0;
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 420px) {
+    #donate p {
+        text-align: center;
+    }    
 }
 
 /* Registration Page */

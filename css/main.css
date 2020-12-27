@@ -37,11 +37,7 @@ nav .navbar-brand img {
     padding: 2rem;
 }
 
-#main-page #marathon-logo {
-    width: 100%;
-}
-
-#main-page #front-page {
+#main-page #marathon-logo, #front-page {
     width: 100%;
 }
 
@@ -89,6 +85,58 @@ nav .navbar-brand img {
 }
 
 #front-page #buttons-front button:hover {
+    background-color: rgb(240, 180, 67);
+    transition: 0.4s ease-in;
+}
+
+/* Section - Donate */
+
+#donate {
+    color: white;   
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+
+    padding: 1rem 0;
+}
+
+#donate .donate-text {
+    padding: 0 2rem;
+}
+
+#donate p {
+    text-align: justify;
+}
+
+#donate img {
+    height: 400px;
+
+    margin-top: 6rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
+}
+
+#donate .donate-button a {
+    color: white;
+
+    text-decoration: none;
+}
+
+#donate .donate-button {
+    font-size: 1.15rem;
+
+    cursor: pointer;
+    
+    margin: 1rem 2rem;
+    width: 50%;
+    padding: 0.75rem 0rem;
+
+    outline: none;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+#donate .donate-button:hover {
     background-color: rgb(240, 180, 67);
     transition: 0.4s ease-in;
 }
