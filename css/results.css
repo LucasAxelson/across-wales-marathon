@@ -8,8 +8,12 @@
 }
 
 body {
-    color: white;
-    background-color: #060607c9;
+    color: black;
+    background-color: #fafafa;
+}
+
+h1,h2,h3,h4,h5,p,a {
+    font-weight: 600;
 }
 
 /* Navigation bar */
@@ -19,6 +23,7 @@ body {
     
     width: 100%;
 
+    font-weight: 600;
     font-size: 1.5rem;
 }
 
@@ -42,7 +47,7 @@ nav .navbar-brand img {
 }
 
 #thanks img {
-    border: 2px solid white;
+    border: 4px solid black;
 }
 
 #thanks .blurb {
@@ -56,6 +61,8 @@ nav .navbar-brand img {
 
 #results {
     padding: 2rem;
+    font-weight: 900;
+    background-color: rgb(240, 180, 67);
 }
 
 #results h2 {
@@ -65,16 +72,20 @@ nav .navbar-brand img {
     text-align: center;
 }
 
+tbody, td, tfoot, th, thead, tr {
+    border-color: black;
+}
+
 /* Footer */
 
 footer {
-    margin-top: 3rem;
-
-    border-top: 1px solid black;
+    margin-top: 4rem;
 }
 
 footer .logo {
     background-color: rgb(240, 180, 67);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 footer .f-logo img {
@@ -86,6 +97,6 @@ footer .f-logo img {
 footer .rights h5 {
     margin: 1rem;
 
-    font-size: 16px;
-    color: white;
+    font-size: 1.5em;
+    color: black;
 }

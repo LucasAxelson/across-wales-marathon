@@ -1,7 +1,7 @@
 /* Main Page */
 
 @media (max-width: 1140px) {
-    main {
+    #index-sheet main {
         font-size: 1.25rem;
         padding-top: 3rem;
     
@@ -41,14 +41,15 @@
 }
 
 @media (max-width: 576px) {
-    #index-sheet nav .navbar-brand img {
+/* Affects all nav-bars */
+    .navbar-brand img {
         height: 3rem;
 
         margin-left: 0;
         margin-right: 0;
     }
 
-    #front-page {
+    #index-sheet #front-page {
         transform: scaleX(-1);
         padding: 1rem;
     }    
@@ -75,15 +76,6 @@
 }
 
 /* Registration Page */
-
-@media (max-width: 500px) {
-    #registration-sheet nav .navbar-brand img {
-        height: 3rem;
-
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
 
 @media (max-width: 768px) {
 
@@ -114,17 +106,10 @@
 
 @media (max-width: 992px) {
 
-    #results-sheet nav .navbar-brand img {
-        height: 3rem;
-    
-        margin-left: 0;
-        margin-right: 0;
-}
-
     #results-sheet #success img {
         border: 2px solid white;
         margin: 0 0;
-}     
+    }     
 
     #results-sheet #thanks .blurb {
         font-size: 1.25rem;
@@ -132,6 +117,6 @@
 
         width: 100%;
         margin-top: 5rem;
-}
+    }  
 
 }

@@ -163,7 +163,6 @@ main {
 #contact-sheet .info {
     background-color: darkgray;
     display: inline-flex;
-
 }
 
 #contact-sheet .info .c-email .span {
@@ -172,7 +171,6 @@ main {
 
 #contact-sheet .info .email {
     font-size: .9rem;
-    padding: ;
 }
 
 /* Contact - Icons */
@@ -200,7 +198,7 @@ main {
 /* Footer */
 
 footer {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 footer .logo {

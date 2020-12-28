@@ -8,8 +8,14 @@
 }
 
 body {
-    background-color: #060607c9;
+    color: black;
+    background-color: #fafafa;
 }
+
+h1,h2,h3,h4,h5,p,a,label {
+    font-weight: 600;
+}
+
 
 /* Navigation bar */
 
@@ -32,7 +38,6 @@ nav .navbar-brand img {
 /* Main Page - Sign-in */
 
 #welcome h1 {
-    color: white;
     font-size: 28px;
     font-weight: 500;
     
@@ -49,11 +54,12 @@ nav .navbar-brand img {
     margin: 1em auto 2em;
     width: 50%;
     padding: 2rem;
-    height: 27rem;
+    height: auto;
 
     font-size: 18px;
     border-radius: 20px;
-    background-color: #f0f1f4;
+    border: 2px solid black;
+    background-color: rgb(240, 180, 67);
 }
 
 #member .sign-in label {
@@ -66,7 +72,7 @@ nav .navbar-brand img {
 }
 
 #member .sign-in input {
-    padding: 0.4em;
+    height: 2rem;
     margin: 0.5em 2rem;
 
     border: 1px solid black;
@@ -87,34 +93,36 @@ nav .navbar-brand img {
 }
 
 #member .sign-in button {
-    font-size: .9em;
+    font-size: 1.3rem;
+
     color: black;
+    margin: 1em 0;
+    height: 3rem;
+    width: 50%;
 
     cursor: pointer;
-    
-    margin-top: 0.5em;
-    padding: 0.35em 3.5rem;
-
     outline: none;
     border-radius: 20px;
-    border-width: 2px;
 }
 
-#member .sign-in button:active {
-    background-color: rgb(223, 167, 64);
+#member .sign-in button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.563);
+    transition: 0.2s ease-in;
 }
 
 /* End of Main Page - Sign in */
 
 /* Article - Sign-Up */
-
     /* Top bar */
 
 #sign-up {
     margin: 2em auto 2em;
     width: 70%;
 
-    background-color: #f0f1f4;
+    background-color: rgb(240, 180, 67);
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 #sign-up #top-register {
@@ -126,7 +134,7 @@ nav .navbar-brand img {
 }
 
 #sign-up #top-register img {
-    height: 5rem;
+    height: 4.5rem;
 
     z-index: 1;
 }
@@ -143,6 +151,7 @@ nav .navbar-brand img {
 
 #sign-up #detail-inputs input, select, #name-inputs input {
     width: 80%;
+    height: 2rem;
 
     border: 1px solid black;
     margin-bottom: 3rem;
@@ -152,6 +161,7 @@ nav .navbar-brand img {
 
 #sign-up #password-input input {
     width: 34%;
+    height: 2rem;
 
     border: 1px solid black;
     margin-bottom: 1rem;
@@ -164,21 +174,23 @@ nav .navbar-brand img {
 }
 
 #sign-up #password-input button {
-    width: 20em;
-    margin: 1em auto 2em;
-
-    font-weight: 700;
+    font-size: 1.3rem;
     color: black;
+    
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    height: 3rem;
+    width: 50%;
 
-    border-radius: 10px;
-    border-width: 2px;
-    transition: background-color .3s ease-in;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
 }    
 
-#sign-up #password-input button:active {
-    background-color: rgba(237, 190, 60, 0.393);
-   
-    transition: .5s ease;
+#sign-up #password-input button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.563);
+    transition: 0.2s ease-in;
 }
 
     /* End of Sign-up form */
@@ -188,13 +200,13 @@ nav .navbar-brand img {
 /* Footer */
 
 footer {
-    margin-top: 2rem;
-
-    border-top: 1px solid black;
+    margin-top: 4rem;
 }
 
 footer .logo {
     background-color: rgb(240, 180, 67);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 footer .f-logo img {
@@ -206,6 +218,6 @@ footer .f-logo img {
 footer .rights h5 {
     margin: 1rem;
 
-    font-size: 16px;
-    color: white;
+    font-size: 1.5em;
+    color: black;
 }
