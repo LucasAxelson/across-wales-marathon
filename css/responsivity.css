@@ -1,40 +1,46 @@
 /* Main Page */
 
-@media (min-width: 992px) {
-
-    #index-sheet #main-page .col-lg-6:nth-child(1) {
-        order: 1;
+@media (max-width: 1140px) {
+    main {
+        font-size: 1.25rem;
+        padding-top: 3.5rem;
+    
+        background: url("/img/auxiliary/front.jpg") no-repeat;
+        background-size: cover;
+        height: auto;
+        transform: scaleX(-1);
+            
+        border-bottom: 3px solid rgb(240, 180, 67);
     }
-}
-
-@media (max-width: 992px) {
-
-    #index-sheet #main-page .col-lg-6:nth-child(2) {
-        order: 1;
+ 
+    #front-page .written {
+        width: 100%;
+        text-align: justify;
     }
-}
 
-@media (max-width: 500px) {
-
+    #front-page #buttons-front {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
     #front-page #buttons-front button {
         font-size: 1.15rem;
 
-        display: inline-flex;
-        text-align: center;
-        align-items: center;
+        width: 80%;
+        height: 4rem;
 
-        width: 40%;
-
-        height: 3rem;
-        padding: 3rem 1rem;
+        margin: 1rem 2rem;
 
         cursor: pointer;
         outline: none;
-        
         border-radius: 20px;
-        border-width: 2px;
     }
 
+}
+
+@media (max-width: 500px) {
     #index-sheet nav .navbar-brand img {
         height: 3rem;
 
@@ -43,18 +49,17 @@
     }
 }
 
-/* Donate to Us */
+/* Donate */
 
 @media (max-width: 992px) {
     #donate {
-        color: white;   
-        font-weight: 100;
+       font-weight: 100;
         font-size: 1.5rem;
         line-height: 2rem;
 
         text-align: center;
         padding: 0;
-        margin: 0 1rem;
+        margin: 2rem 1rem;
     }
 }
 

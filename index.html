@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="d-flex flex-row">
                 <a class="navbar-brand" href="">
-                    <img src="/img/logo3.png" alt="Logo - Man running past the finish line.">
+                    <img src="/img/logos/logo3.png" alt="Logo - Man running past the finish line.">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,49 +55,34 @@
     <!-- Start of Main Page -->
     <main>
         <div class="container-fluid" id="main-page">
-            <div class="row d-flex justify-content-center">
-
-                <!-- Side Image -->
-                <div class="col-12 col-lg-6 main-page-div">
-                    <div id="marathon-logo">
-                        <aside>
-                            <img src="/img/marathon.png" alt="People running as part of a marathon." class="img-fluid">
-                        </aside>
-                    </div>
-                </div>
-                <!-- End of Side Image -->
-
+            <div class="row">
                 <!-- Front Page -->
-                <div class="col-12 col-lg-6 main-page-div">
-                    <div class="container" id="front-page">
-                        <!-- Written Content -->
+                <div class="col-12" id="front-page">
+                    <!-- Written Content -->
+                    <div class="written">
                         <h1>
                             Welcome to the All Across Wales Marathon <br>
                         </h1>
                         <p class="marathon-text">
-                            Our organization, the All Across Foundation, is here to provide you with an experience that
-                            accepts all
-                            individuals as we run across the great lands that comprise Wales.
+                            We, the All Across Foundation, are here to provide you with an experience
+                            that accepts all individuals as we run across the great lands that comprise Wales.
                         </p>
                         <p class="marathon-text">
                             We are a non-profitable organization and are maintained by your donations! Feel free
                             to donate to us and help continue this great anual tradition!
                         </p>
-
-                        <!-- End of Written Content -->
-                        <!-- Interactive Buttons -->
-                        <div class="col-12">
-                            <div id="buttons-front">
-                                <button type="button" class="btn btn-outline-warning">
-                                    <a href="/"> Make a Change! </a>
-                                </button>
-                                <button type="button" class="btn btn-outline-warning">
-                                    <a href="/registration.html" target="_BLANK"> Register! </a>
-                                </button>
-                            </div>
-                            <!-- End of Interactive Buttons -->
-                        </div>
                     </div>
+                    <!-- End of Written Content -->
+                    <!-- Interactive Buttons -->
+                    <div class="col-12" id="buttons-front">
+                        <button type="button" class="btn btn-outline-warning border-2">
+                            <a href="/"> Make a Change! </a>
+                        </button>
+                        <button type="button" class="btn btn-outline-warning border-2">
+                            <a href="/registration.html" target="_BLANK"> Register! </a>
+                        </button>
+                    </div>
+                    <!-- End of Interactive Buttons -->
                 </div>
                 <!-- End of Front Page -->
             </div>
@@ -108,7 +93,7 @@
     <section id="donate">
         <div class="container-fluid justify-content-center">
             <div class="row d-flex justify-content-center">
-                <div class="col-12 col-lg-6 order-1 donate-text">
+                <div class="col-12 col-lg-6 order-2 donate-text">
                     <h2 class="py-3">Donate to the All Across Foundation!</h2>
                     <p>
                         We at the All Across Foundation provide support and care to those who cannot afford treatment
@@ -127,15 +112,66 @@
                         get help - you are not alone!
                     </p>
                     <div class="container">
-                        <button type="button" class="btn btn-outline-warning donate-button">
+                        <button type="button" class="btn btn-outline-warning border-2 donate-button">
                             <a href="#donate"> Make a Change! </a>
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-6 order-2 d-none d-lg-block donate-img">
-                    <img src="/img/blood-pressure.jpg" alt="Nurse measuring the heart pressure of another nurse.">
+                <!-- Side image -->
+                <div class="col-lg-6 order-1 d-none d-lg-block donate-img">
+                    <img src="/img/auxiliary/blood-pressure.jpg"
+                        alt="Nurse measuring the heart pressure of another nurse.">
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- End of Section - Donate -->
+    <!-- 2nd Section - Contact -->
+    <section id="contact-sheet">
+        <div class="container">
+
+            <h2 class="py-3"> Contact Us </h2>
+            <p>
+                If you wish to contact us with the All Across Foundation, contact us via our social medias.
+                Otherwise, please call the number below or send us an email, and we will get back to you as soon as
+                possible!
+            </p>
+
+            <hr>
+
+            <div class="input-group">
+                <span class="input-group-text" id="c-email">@</span>
+                <input type="text" class="form-control" placeholder="public@allacross.co.uk" aria-label="Company Email"
+                    aria-describedby="c-email" disabled>
+            </div>
+            <div class="info container-fluid">
+                <div class="c-email">
+                    <div class="span">
+                        <span>@</span>
+                    </div>
+                    <div class="email">
+                        public@allacross.co.uk
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="container-fluid icons">
+                <a href="/">
+                    <img src="/img/icons/facebook.png" alt="Facebook Icon">
+                </a>
+                <a href="/">
+                    <img src="/img/icons/instagram.png" alt="Instagram Icon">
+                </a>
+                <a href="/">
+                    <img src="/img/icons/twitter.png" alt="Twitter Icon">
+                </a>
+                <a href="/">
+                    <img src="/img/icons/linkedin.png" alt="LinkedIn Icon">
+                </a>
+            </div>
+
         </div>
     </section>
 
@@ -143,7 +179,7 @@
 
         <div class="logo container-fluid d-flex flex-row justify-content-center">
             <div class="f-logo">
-                <img class="img-fluid" src="/img/logo1.png" alt="Secondary logo - Man crossing finish line">
+                <img class="img-fluid" src="/img/logos/logo1.png" alt="Secondary logo - Man crossing finish line">
             </div>
         </div>
 
