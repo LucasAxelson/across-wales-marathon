@@ -72,7 +72,6 @@ main {
 
 #front-page #buttons-front button a {
     color: black;
-
     text-decoration: none;
 }
 
@@ -80,7 +79,6 @@ main {
     font-size: 1.3rem;
     
     margin: 1em 0;
-
     height: 4rem;
     width: 30%;
 
@@ -91,6 +89,7 @@ main {
 
 #front-page #buttons-front button:hover {
     background-color: rgb(240, 180, 67);
+    border: 2px solid black;
     transition: 0.2s ease-in;
 }
 
@@ -132,10 +131,10 @@ main {
 
 #donate .donate-button {
     font-size: 1.15rem;
-    
-    margin: 1rem 2rem;
-    padding: 0.75rem 0rem;
-    width: 50%;
+
+    height: 4rem;
+    width: 100%;
+    margin: 2rem 0;
 
     cursor: pointer;
     outline: none;
@@ -144,6 +143,7 @@ main {
 
 #donate .donate-button:hover {
     background-color: rgb(240, 180, 67);
+    border: 2px solid black;
     transition: 0.2s ease-in;
 }
 

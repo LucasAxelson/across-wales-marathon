@@ -3,7 +3,7 @@
 @media (max-width: 1140px) {
     main {
         font-size: 1.25rem;
-        padding-top: 3.5rem;
+        padding-top: 3rem;
     
         background: url("/img/auxiliary/front.jpg") no-repeat;
         background-size: cover;
@@ -40,13 +40,18 @@
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
     #index-sheet nav .navbar-brand img {
         height: 3rem;
 
         margin-left: 0;
         margin-right: 0;
     }
+
+    #front-page {
+        transform: scaleX(-1);
+        padding: 1rem;
+    }    
 }
 
 /* Donate */
