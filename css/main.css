@@ -16,6 +16,10 @@ h1,h2,h3,h4,h5,p,a {
     font-weight: 600;
 }
 
+hr {
+    margin: 0;
+}
+
 /* Navigation bar */
 
 #nav-bar-marathon {
@@ -101,47 +105,46 @@ main {
     font-size: 1.25rem;
     line-height: 1.75rem;
 
-    padding: 1rem 0;
+    margin: 2rem 2rem;
 }
 
-#donate .donate-text {
-    padding: 0 3.25rem;
-}
-
-#donate h2 {
+#donate .donate-text h2 {
     font-size: 1.5em;
 }
 
-#donate p {
+#donate .donate-text p {
     text-align: justify;
 }
 
-#donate img {
-    height: 400px;
-    border: 2px solid black;
-
-    margin: 6rem 2rem;
+#donate .donate-img {
+    width: ;
 }
 
-#donate .donate-button a {
-    color: black;
+#donate .donate-img img {
+    height: 400px;
+    border: 2px solid black;
+    margin: 2rem 0;
 
+}
+
+#donate .donate-img .donate-button a {
+    color: black;
     text-decoration: none;
 }
 
-#donate .donate-button {
+#donate .donate-img .donate-button {
     font-size: 1.15rem;
 
     height: 4rem;
     width: 100%;
-    margin: 2rem 0;
+    margin: 1rem -1rem;
 
     cursor: pointer;
     outline: none;
     border-radius: 20px;
 }
 
-#donate .donate-button:hover {
+#donate .donate-img .donate-button:hover {
     background-color: rgb(240, 180, 67);
     border: 2px solid black;
     transition: 0.2s ease-in;
@@ -151,8 +154,9 @@ main {
 
 #contact-sheet .container {
     border: 2px solid black;
+    padding: 1rem 2rem;
+
     color: black;
-    
     font-size: 1.5rem;
 }
 
@@ -160,17 +164,44 @@ main {
     font-size: 1.25em;
 }
 
-#contact-sheet .info {
-    background-color: darkgray;
-    display: inline-flex;
+ /* Contact - Inputs */
+
+#contact-sheet .contact-inputs .info {
+    font-weight: 900;
+
+    margin: 2rem 0;
+    height: 2.5rem;
+
+    border: 1.25px solid rgb(143, 143, 143);
+    border-radius: 3px;
+    background-color: rgb(228, 228, 228);
 }
 
-#contact-sheet .info .c-email .span {
-    width: 2rem;
+#contact-sheet .contact-inputs .info .contact {
+    display: flex;
+    flex-direction: row;
 }
 
-#contact-sheet .info .email {
-    font-size: .9rem;
+#contact-sheet .contact-inputs .info .contact span {
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 2.5rem;
+    height: 2.45rem;
+    border-right: 1.25px solid rgb(143, 143, 143);
+
+}
+
+#contact-sheet .contact-inputs .info .email, .number {
+    font-size: 16px;
+    margin-left: .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Contact - Icons */
@@ -186,6 +217,7 @@ main {
     flex-direction: row;
     justify-content: center;
     
+    margin: 1rem 0;
     padding: .5rem 0;
 }
 
