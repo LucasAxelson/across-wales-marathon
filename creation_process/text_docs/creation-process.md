@@ -1,6 +1,21 @@
 # marathon
 3-page marathon site. Test of HTML and CSS skills
 
+31/12/2020 <br>
+<br>
+Creation of Contact Us Section. (Responsive) <br>
+Revision of Site. <br>
+--PROJECT COMPLETE-- <br>
+<br>
+
+![1 - Front](https://user-images.githubusercontent.com/73433189/103420715-a3c67c00-4b90-11eb-9a9c-b945b197c787.PNG)
+![2 - Donate to Us](https://user-images.githubusercontent.com/73433189/103420717-a4f7a900-4b90-11eb-82f2-06fd218b04cc.PNG)
+![3 - Contact](https://user-images.githubusercontent.com/73433189/103420719-a628d600-4b90-11eb-9b0d-e929576a9b83.PNG)
+![4 - Log In](https://user-images.githubusercontent.com/73433189/103420720-a6c16c80-4b90-11eb-8db0-02efa9404a09.PNG)
+![5 - Register](https://user-images.githubusercontent.com/73433189/103420721-a6c16c80-4b90-11eb-999f-d9d79e14bc47.PNG)
+![6 - Thanks](https://user-images.githubusercontent.com/73433189/103420722-a75a0300-4b90-11eb-8aee-245741f3b370.PNG)
+![7 - Results](https://user-images.githubusercontent.com/73433189/103420724-a88b3000-4b90-11eb-85be-b77f376a7029.PNG)
+
 28/12/2020 <br>
 <br>
 Creation of Donate Section. (Responsive) <br>
