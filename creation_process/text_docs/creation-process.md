@@ -1,6 +1,17 @@
 # marathon
 3-page marathon site. Test of HTML and CSS skills
 
+28/12/2020 <br>
+<br>
+Creation of Donate Section. (Responsive) <br>
+Alteration of background color & addition of background image. <br>
+Creation of Contact section in-progress. <br>
+Cleaner code and correction of small interface-related bugs. <br>
+<br>
+
+![1 - Front](https://user-images.githubusercontent.com/73433189/103235401-fa864880-4939-11eb-851f-a5742cc8c555.PNG)
+![2 - Donate](https://user-images.githubusercontent.com/73433189/103235403-fbb77580-4939-11eb-8242-dad28bcf0d2d.PNG)
+
 24/12/2020 <br>
 <br>
 Creation of Results page with absolute responsivity as per the last post's standards. <br>
