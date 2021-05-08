@@ -2,7 +2,7 @@
 
 Welcome to my first student project. A fictitious charity site supporting those with cardiovascular disease, via a publically sponsered anual marathon. <br> <br>
 The subject of the site exists merely to fill in the spaces and demonstrate the code's intent. It does not exist to promote any real companies, nor was this project based or 
-created upon any other project. It is completely independent, using images from Unpslash and icons from IconScout. <br> <br>
+created upon any other project. It is completely independent, using images from Unsplash and icons from IconScout. <br> <br>
 
 The duration of the project was aproximately 30-days, having suffered some delays due to the end of the year. However, it was sucessfully finished on the 31st of December, 2020.
 The intent of site is and always has been: <br>
